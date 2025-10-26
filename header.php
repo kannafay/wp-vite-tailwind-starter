@@ -24,6 +24,7 @@
             <ul class="flex items-center gap-4">
                 <a href="/">首页</a>
                 <a href="/sample-page">示例页面</a>
+                <a href="/wp-admin">后台管理</a>
             </ul>
             <div>
                 <button class="flex justify-between items-center cursor-pointer" x-data="{
