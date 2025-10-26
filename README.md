@@ -1,13 +1,13 @@
 # WP Vite Tailwind Starter
 
-通过vite+tailwindcss构建wp主题，零配置快速搭建一个模块化的wp主题。支持添加更多npm包，如vue，react，gsap，swup等。
+通过 vite + tailwindcss + alpinejs 构建wp主题，零配置快速搭建一个模块化的WP主题。支持添加更多npm包，如vue，react，gsap，swup等。
 
-本项目内置2个实用js功能模块（目录：src/utils）：
+本项目内置2个实用JS功能模块（目录：src/utils）：
 
 - ColorMode：主题模式，支持浅色、深色和跟随系统三种模式
-- RestAPI：用于请求WP REST API的功能模块，支持多种请求方式
+- RestAPI：用于请求 WP REST API 的功能模块，支持多种请求方式
 
-详情请查看对应js文件注释
+详情请查看对应JS文件注释
 
 ## 安装依赖
 
@@ -26,9 +26,9 @@ composer i
 - `pnpm dev` ：HMR热更新模式，默认端口 `777`
 - `pnpm watch` ：Vite监听模式（推荐）
 
-**pnpm dev:** 对pjax、大型项目更友好，更新速度比watch快，缺点就是刷新会有闪烁现象。
+**pnpm dev:** 对pjax、大型项目更友好，更新速度比build监听模式快，缺点就是刷新或加载时有闪烁现象。
 
-**pnpm watch:** 使用build监听模式，wp直接引用js，运行时更稳定，也是最终构建形态，缺点是项目过大时，构建时间稍长
+**pnpm watch:** 使用build监听模式，WP直接引入最终构建的JS，运行时更稳定，缺点是项目过大时，每次构建消耗时间稍长
 
 ## 构建项目
 

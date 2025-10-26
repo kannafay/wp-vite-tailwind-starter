@@ -26,6 +26,8 @@
                 <a href="/sample-page">示例页面</a>
                 <a href="/wp-admin">后台管理</a>
             </ul>
+
+            <!-- 主题模式切换功能 -->
             <div>
                 <button class="flex justify-between items-center cursor-pointer" x-data="{
                     mode: ColorMode.getMode(),
