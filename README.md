@@ -1,6 +1,6 @@
 # WP Vite Tailwind Starter
 
-通过 vite + tailwindcss + alpinejs 构建wp主题，零配置快速搭建一个模块化的WP主题。支持添加更多npm包，如vue，react，gsap，swup等。
+通过 vite + tailwindcss + alpinejs 构建wp主题，零配置快速搭建一个模块化的WP主题。支持添加更多npm包，如vue，react，gsap，swup，eslint等。
 
 本项目内置2个实用JS功能模块（目录：src/utils）：
 
