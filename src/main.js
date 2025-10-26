@@ -27,5 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(log2, 'color: #41b883;')
     console.log(log3, 'color: #41b883;')
     console.log(log4, 'color: #ff4081;')
-    // console.log(`%cTheme version: ${wp.theme_version}\n%c❤️ Powered by Vite + Tailwind CSS + Alpine.js`, 'color: #41b883; font-weight: bold;', 'color: #ff4081; font-weight: bold;')
 })
