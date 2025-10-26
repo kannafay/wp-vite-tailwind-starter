@@ -1,0 +1,8 @@
+# node dependencies
+node_modules/
+
+# composer dependencies
+/vendor/
+
+# macOS
+.DS_Store

@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+/* Plugin */
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+@plugin "@iconify/tailwind4";
+
+/* Custom Variants */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-primary: #8183ff;
+}
+
+:root {
+    --color-bg: #ffffff;
+    --color-text: #333333;
+}
+
+:root.dark {
+    --color-bg: #0e0e0e;
+    --color-text: #ffffff;
+}
+
+html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
