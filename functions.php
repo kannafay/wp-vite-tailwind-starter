@@ -25,9 +25,6 @@ if (!function_exists('')) {
  * 引入样式和脚本
  */
 add_action('wp_enqueue_scripts', function () {
-    // 主题版本号
-    $theme_version = wp_get_theme()->get('Version');
-
     if (!is_vite_dev_running()) {
         // 生产模式
         wp_enqueue_style(
@@ -54,7 +51,7 @@ add_action('wp_enqueue_scripts', function () {
         'ajax_url' => admin_url('admin-ajax.php'),
         'rest_url' => esc_url_raw(rest_url()),
         'nonce' => wp_create_nonce('wp_rest'),
-        'theme_version' => $theme_version,
+        'theme_version' => wp_get_theme()->get('Version'),
         'theme_options' => [],
     ]);
 

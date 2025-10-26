@@ -31,11 +31,6 @@
             <div>
                 <button class="flex justify-between items-center cursor-pointer" x-data="{
                     mode: ColorMode.getMode(),
-                    modeIcon: {
-                        'auto': 'line-md:light-dark-loop',
-                        'light': 'line-md:sunny-filled-loop',
-                        'dark': 'line-md:moon-filled-loop',
-                    },
                     toggle() {
                         this.mode = this.mode === 'auto'
                         ? this.mode = 'light'
